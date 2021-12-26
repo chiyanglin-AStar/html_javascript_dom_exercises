@@ -1,0 +1,13 @@
+# CodingCoffee  C/C++ GitPod Examples more courses : http://www.codingcoffee.org
+tasks:
+  - init: echo 'this is nodejs  gitpod example' # runs during prebuild
+    command: npx browser-sync start -s -w 
+
+# CodingCoffee  C/C++ GitPod Examples more courses : http://www.codingcoffee.org
+ports:
+  - port: 3000
+    onOpen: open-preview 
+  - port: 4000
+    onOpen: open-preview
+  - port: 8080
+    onOpen: open-preview
